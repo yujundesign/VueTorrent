@@ -20,7 +20,7 @@ import { DarkLegacy, LightLegacy } from '@/themes'
 export const useVueTorrentStore = defineStore(
   'vuetorrent',
   () => {
-    const language = ref('en')
+    const language = ref('zh-Hans')
     const theme = reactive({
       mode: ThemeMode.SYSTEM,
       light: LightLegacy.id,
